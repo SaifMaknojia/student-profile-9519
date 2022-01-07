@@ -41,7 +41,7 @@ const Card = ({ student, setStudentData, studentData }) => {
             {`${student.firstName} ${student.lastName}`}
           </h2>
           <button onClick={toggleTest} className="info__header--button">
-            {showTest ? '-' : '+'}
+            {showTest ? '- ' : '+'}
           </button>
         </div>
         <div className="info__content">
