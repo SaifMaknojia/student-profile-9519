@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  padding: 15px 20px;
+  border-bottom: 1px solid silver;
+}
+
+.profile {
+  &__image {
+    border: 1px solid rgb(222, 218, 218);
+    border-radius: 50%;
+    height: 100px;
+  }
+}
+
+.info {
+  width: 100%;
+  margin-left: 30px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--button {
+      padding: 5px;
+      background-color: transparent;
+      border: none;
+      font-size: 32px;
+      color: gray;
+    }
+    &--title {
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  &__content {
+    margin-left: 10px;
+    &--name {
+      color: rgb(155, 155, 155);
+      line-height: 20px;
+    }
+  }
+}
+
+.visible {
+  display: block;
+}
+.hidden {
+  display: hidden;
+}
